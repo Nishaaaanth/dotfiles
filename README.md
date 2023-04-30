@@ -1,13 +1,11 @@
 # Dotfiles
 
 These are all the configuration I have setup or modified from other config files focusing on producivity, performance and ease-of-use.
-
 &nbsp;
 
 ### Configurations for these tools:
 1. Neovim
 2. Wezterm
-
 &nbsp;
 
 ### Neovim (Dependencies):
@@ -25,6 +23,6 @@ These are all the configuration I have setup or modified from other config files
 
 ### Wezterm (Dependencies):
 1. Nerdfont
-
 &nbsp;
+
 <div align="center"><h4>Feel free to contribute! :heart:</h4></div>
