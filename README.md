@@ -28,6 +28,6 @@ These are all the configuration I have setup or modified from other config files
 ### How to use this:
 * Dump the file into `~/.config`.
 * You can change my folder or file names and call it anything you like.
-* Restart the Machine.
+* Restart the Terminal Emulator.
 
 <div align="center"><h4>Feel free to contribute! :heart:</h4></div>
