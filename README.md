@@ -25,4 +25,9 @@ These are all the configuration I have setup or modified from other config files
 * [Nerdfont](https://www.nerdfonts.com/): Cool fonts specially for coders.(I rarely use 3rd party fonts but there are some cool collections with them check em out!)
 &nbsp;
 
+### How to use this:
+* Dump the file into `~/.config`.
+* You can change my folder or file names and call it anything you like.
+* Restart the Machine.
+
 <div align="center"><h4>Feel free to contribute! :heart:</h4></div>
