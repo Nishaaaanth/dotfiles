@@ -44,6 +44,7 @@ vim.keymap.set("n", "<leader>3", ":lua Color('melange')<CR>")
 vim.keymap.set("n", "<leader>4", ":lua Color('tokyonight-night')<CR>")
 vim.keymap.set("n", "<leader>5", ":lua Color('tokyonight-moon')<CR>")
 vim.keymap.set("n", "<leader>6", ":lua Color('tokyonight-day')<CR>")
+vim.keymap.set("n", "<leader>0", ":lua Color('fahrenheit')<CR>")
 vim.keymap.set("n", "D", ":set background=dark<CR>")
 vim.keymap.set("n", "L", ":set background=light<CR>")
 

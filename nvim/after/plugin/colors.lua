@@ -15,8 +15,8 @@ function Color(color)
             invert_signs = false,
             invert_tabline = false,
             invert_intend_guides = false,
-            inverse = true, -- invert background for search, diffs, statuslines and errors
-            contrast = "",  -- can be "hard", "soft" or empty string
+            inverse = true,
+            contrast = "soft",  -- can be "hard", "soft" or empty string
             palette_overrides = {},
             overrides = {},
             dim_inactive = false,
@@ -26,7 +26,6 @@ function Color(color)
         vim.cmd.colorscheme(color)
     elseif color == "rose-pine" then
         vim.cmd.colorscheme(color)
-
     elseif color == "melange" then
         vim.cmd.colorscheme(color)
     elseif color == "tokyonight-night" then
@@ -34,6 +33,8 @@ function Color(color)
     elseif color == "tokyonight-moon" then
         vim.cmd.colorscheme(color)
     elseif color == "tokyonight-day" then
+        vim.cmd.colorscheme(color)
+    elseif color == "fahrenheit" then
         vim.cmd.colorscheme(color)
     end
 end
