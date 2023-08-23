@@ -43,6 +43,7 @@ return require('packer').startup(function(use)
     }
 
     use { 'BurntSushi/ripgrep' }
+
     use { 'sharkdp/fd' }
 
     use({
@@ -53,6 +54,8 @@ return require('packer').startup(function(use)
         end
     })
 
+    use 'fcpg/vim-fahrenheit'
+
     use {
         'VonHeikemen/lsp-zero.nvim',
         branch = 'v2.x',
@@ -62,7 +65,7 @@ return require('packer').startup(function(use)
             {
                 'williamboman/mason.nvim',
                 run = function()
-                    pcall(vim.cmd, 'MasonUpdate')
+                    pcall(vim.api.nvim_cmd({cmd='MasonUpdate'}))
                 end,
             },
             { 'williamboman/mason-lspconfig.nvim' },

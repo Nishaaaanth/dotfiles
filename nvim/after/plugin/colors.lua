@@ -16,7 +16,7 @@ function Color(color)
             invert_tabline = false,
             invert_intend_guides = false,
             inverse = true,
-            contrast = "soft",  -- can be "hard", "soft" or empty string
+            contrast = "", -- can be "hard", "soft" or empty string
             palette_overrides = {},
             overrides = {},
             dim_inactive = false,

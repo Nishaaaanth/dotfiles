@@ -10,17 +10,14 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
--- greatest remap ever
 vim.keymap.set("x", "<leader>dp", [["_dP]])
 
--- next greatest remap ever : asbjornHaland
 vim.keymap.set({ "n", "v" }, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
 
 vim.keymap.set({ "n", "v" }, "<leader>d", [["_d]])
 
--- This is going to get me cancelled
-vim.keymap.set("i", "<C-]>", "<Esc>")
+vim.keymap.set("i", "<C-/>", "<Esc>")
 
 vim.keymap.set("n", "Q", "<nop>")
 vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
@@ -51,4 +48,13 @@ vim.keymap.set("n", "L", ":set background=light<CR>")
 vim.keymap.set("n", "<leader>w", "<C-w>")
 
 -- emmet
-vim.keymap.set("n", "<C-/>", "<C-y>,")
+vim.keymap.set("n", "<C-y>", "<C-y>,")
+
+-- term
+vim.keymap.set("t", "<ESC>", "<C-\\><C-n>", {noremap=true})
+vim.keymap.set("n", "<leader>tv", "<cmd>vsp<CR><Esc><C-w>l<cmd>term<CR>")
+vim.keymap.set("n", "<leader>th", "<cmd>sp<CR><Esc><C-w>j<cmd>term<CR>")
+
+vim.keymap.set("n", "<leader>wv", "<cmd>vsp<CR><Esc><C-w>l")
+vim.keymap.set("n", "<leader>wh", "<cmd>sp<CR><Esc><C-w>j")
+vim.keymap.set("t", "<C-/>", "<Esc>")

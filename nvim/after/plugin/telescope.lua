@@ -3,6 +3,7 @@ vim.keymap.set('n', '<leader>sf', builtin.find_files, {desc = '[S]earch [F]iles'
 vim.keymap.set('n', '<leader>gf', builtin.git_files, {desc = '[G]it [F]iles'})
 vim.keymap.set('n', '<leader>sg', builtin.live_grep, {desc = '[S]earch by [G]rep'})
 vim.keymap.set('n', '<leader>sb', builtin.buffers, {desc = '[S]earch [B]uffers'})
+vim.keymap.set('n', '<leader>sh', builtin.help_tags, {desc = '[S]earch [H]elp Tags'})
 vim.keymap.set('n', '<leader>sd', require('telescope.builtin').diagnostics, { desc = '[S]earch [D]iagnostics' })
 
 vim.keymap.set('n', '<leader>gp', function()
