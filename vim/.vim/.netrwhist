@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/hp/Programming/Portfolio/Nishanth/src/styles/input'
+let g:netrw_dirhist_3='/home/hp/Programming/Portfolio/Nishanth/src/styles'
+let g:netrw_dirhist_2='/home/hp/Programming/Portfolio/Nishanth/src'
+let g:netrw_dirhist_1='/home/hp/Programming/Portfolio/Nishanth/src/layout'
+let g:netrw_dirhist_0='/home/hp/Programming/Portfolio/Nishanth/src'
+let g:netrw_dirhist_9='/home/hp/Programming/Portfolio/Nishanth'
+let g:netrw_dirhist_8='/home/hp/Programming/Portfolio'
+let g:netrw_dirhist_7='/home/hp/Programming'
+let g:netrw_dirhist_6='/home/hp'
+let g:netrw_dirhist_5='/home/hp/.vim'
