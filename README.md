@@ -20,7 +20,7 @@ These are all the configuration I have setup or modified from other config files
 * Color_scheme: {'[gruvbox](https://github.com/ellisonleao/gruvbox.nvim)', '[melange](https://github.com/savq/melange-nvim)', '[tokyonight](https://github.com/folke/tokyonight.nvim)', '[rose-pine](https://github.com/rose-pine/neovim)', '[fahrenheit](https://github.com/fcpg/vim-fahrenheit)'} (I prefer fahrenheit)
 * [Lualine](https://github.com/nvim-lualine/lualine.nvim): Cool Status line.
 * [Comment](https://github.com/numToStr/Comment.nvim): Provides VSCode shortcuts for commenting.
-&nbsp;
+<br></br>
 NOTE: Ubuntu needs `xclip` to copy to and paste from clipboard!
 
 ### Wezterm (Dependencies):
